@@ -1,0 +1,50 @@
+{
+  "name": "clevedon-ghost-signs-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "clevedon-ghost-signs-website",
+  "author": "Tam",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "test": "jest",
+    "preload-fonts": "gatsby-preload-fonts",
+    "deploy": "gatsby build && gh-pages -d public -b main",
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^2.0.0",
+    "@mdx-js/react": "^2.0.0",
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.5",
+    "gatsby": "^5.13.7",
+    "gatsby-plugin-feed": "^5.13.1",
+    "gatsby-plugin-image": "^3.13.1",
+    "gatsby-plugin-manifest": "^5.13.1",
+    "gatsby-plugin-mdx": "^5.13.1",
+    "gatsby-plugin-preload-fonts": "^4.13.1",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-plugin-sitemap": "^6.13.1",
+    "gatsby-remark-images": "^7.13.1",
+    "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-sharp": "^5.13.1",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.3",
+    "react-dom": "^18.3.1",
+    "react-waypoint": "^10.3.0"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "babel-jest": "^29.7.0",
+    "babel-preset-gatsby": "^3.13.2",
+    "gh-pages": "^6.1.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "react-test-renderer": "^18.3.0"
+  }
+}
